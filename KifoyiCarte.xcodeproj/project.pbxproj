@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821BCC571A4093090085F39A /* Paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 821BCC531A4093090085F39A /* Paris.jpg */; };
+		821BCC581A4093090085F39A /* Tokyo.png in Resources */ = {isa = PBXBuildFile; fileRef = 821BCC541A4093090085F39A /* Tokyo.png */; };
+		821BCC591A4093090085F39A /* rome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 821BCC551A4093090085F39A /* rome.jpg */; };
+		821BCC5A1A4093090085F39A /* losangeles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 821BCC561A4093090085F39A /* losangeles.jpg */; };
+		821BCC5C1A4098E20085F39A /* singapore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 821BCC5B1A4098E20085F39A /* singapore.jpg */; };
+		82A35F6C1A40394100180359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A35F6B1A40394100180359 /* Foundation.framework */; };
+		82A35F6E1A40394100180359 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A35F6D1A40394100180359 /* CoreGraphics.framework */; };
+		82A35F701A40394100180359 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A35F6F1A40394100180359 /* UIKit.framework */; };
+		82A35F761A40394100180359 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82A35F741A40394100180359 /* InfoPlist.strings */; };
+		82A35F781A40394100180359 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A35F771A40394100180359 /* main.m */; };
+		82A35F7C1A40394100180359 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A35F7B1A40394100180359 /* AppDelegate.m */; };
+		82A35F7F1A40394100180359 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A35F7D1A40394100180359 /* Main_iPhone.storyboard */; };
+		82A35F821A40394100180359 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A35F801A40394100180359 /* Main_iPad.storyboard */; };
+		82A35F851A40394100180359 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A35F841A40394100180359 /* ViewController.m */; };
+		82A35F871A40394100180359 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A35F861A40394100180359 /* Images.xcassets */; };
+		82A35F8E1A40394100180359 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A35F8D1A40394100180359 /* XCTest.framework */; };
+		82A35F8F1A40394100180359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A35F6B1A40394100180359 /* Foundation.framework */; };
+		82A35F901A40394100180359 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A35F6F1A40394100180359 /* UIKit.framework */; };
+		82A35F981A40394100180359 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82A35F961A40394100180359 /* InfoPlist.strings */; };
+		82A35F9A1A40394100180359 /* KifoyiCarteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A35F991A40394100180359 /* KifoyiCarteTests.m */; };
+		82A35FA51A403A0600180359 /* VilleTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A35FA41A403A0600180359 /* VilleTableController.m */; };
+		82A35FAB1A403A9E00180359 /* VilleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A35FAA1A403A9E00180359 /* VilleTableCell.m */; };
+		82A35FAE1A4045AD00180359 /* VilleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A35FAD1A4045AD00180359 /* VilleViewController.m */; };
+		82A35FB01A405D1B00180359 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A35FAF1A405D1B00180359 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82A35F911A40394100180359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A35F601A40394100180359 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82A35F671A40394100180359;
+			remoteInfo = KifoyiCarte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		821BCC531A4093090085F39A /* Paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paris.jpg; sourceTree = "<group>"; };
+		821BCC541A4093090085F39A /* Tokyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tokyo.png; sourceTree = "<group>"; };
+		821BCC551A4093090085F39A /* rome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rome.jpg; sourceTree = "<group>"; };
+		821BCC561A4093090085F39A /* losangeles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = losangeles.jpg; sourceTree = "<group>"; };
+		821BCC5B1A4098E20085F39A /* singapore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = singapore.jpg; sourceTree = "<group>"; };
+		82A35F681A40394100180359 /* KifoyiCarte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KifoyiCarte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A35F6B1A40394100180359 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82A35F6D1A40394100180359 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82A35F6F1A40394100180359 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82A35F731A40394100180359 /* KifoyiCarte-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KifoyiCarte-Info.plist"; sourceTree = "<group>"; };
+		82A35F751A40394100180359 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82A35F771A40394100180359 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82A35F791A40394100180359 /* KifoyiCarte-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KifoyiCarte-Prefix.pch"; sourceTree = "<group>"; };
+		82A35F7A1A40394100180359 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82A35F7B1A40394100180359 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82A35F7E1A40394100180359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		82A35F811A40394100180359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		82A35F831A40394100180359 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82A35F841A40394100180359 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82A35F861A40394100180359 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82A35F8C1A40394100180359 /* KifoyiCarteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KifoyiCarteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A35F8D1A40394100180359 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		82A35F951A40394100180359 /* KifoyiCarteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KifoyiCarteTests-Info.plist"; sourceTree = "<group>"; };
+		82A35F971A40394100180359 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82A35F991A40394100180359 /* KifoyiCarteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KifoyiCarteTests.m; sourceTree = "<group>"; };
+		82A35FA31A403A0600180359 /* VilleTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VilleTableController.h; path = ../VilleTableController.h; sourceTree = "<group>"; };
+		82A35FA41A403A0600180359 /* VilleTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VilleTableController.m; path = ../VilleTableController.m; sourceTree = "<group>"; };
+		82A35FA91A403A9E00180359 /* VilleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VilleTableCell.h; path = ../VilleTableCell.h; sourceTree = "<group>"; };
+		82A35FAA1A403A9E00180359 /* VilleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VilleTableCell.m; path = ../VilleTableCell.m; sourceTree = "<group>"; };
+		82A35FAC1A4045AD00180359 /* VilleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VilleViewController.h; sourceTree = "<group>"; };
+		82A35FAD1A4045AD00180359 /* VilleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VilleViewController.m; sourceTree = "<group>"; };
+		82A35FAF1A405D1B00180359 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82A35F651A40394100180359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A35FB01A405D1B00180359 /* MapKit.framework in Frameworks */,
+				82A35F6E1A40394100180359 /* CoreGraphics.framework in Frameworks */,
+				82A35F701A40394100180359 /* UIKit.framework in Frameworks */,
+				82A35F6C1A40394100180359 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A35F891A40394100180359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A35F8E1A40394100180359 /* XCTest.framework in Frameworks */,
+				82A35F901A40394100180359 /* UIKit.framework in Frameworks */,
+				82A35F8F1A40394100180359 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		821BCC521A4093090085F39A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				821BCC5B1A4098E20085F39A /* singapore.jpg */,
+				821BCC531A4093090085F39A /* Paris.jpg */,
+				821BCC541A4093090085F39A /* Tokyo.png */,
+				821BCC551A4093090085F39A /* rome.jpg */,
+				821BCC561A4093090085F39A /* losangeles.jpg */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		82A35F5F1A40394100180359 = {
+			isa = PBXGroup;
+			children = (
+				82A35F711A40394100180359 /* KifoyiCarte */,
+				82A35F931A40394100180359 /* KifoyiCarteTests */,
+				82A35F6A1A40394100180359 /* Frameworks */,
+				82A35F691A40394100180359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82A35F691A40394100180359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82A35F681A40394100180359 /* KifoyiCarte.app */,
+				82A35F8C1A40394100180359 /* KifoyiCarteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82A35F6A1A40394100180359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82A35FAF1A405D1B00180359 /* MapKit.framework */,
+				82A35F6B1A40394100180359 /* Foundation.framework */,
+				82A35F6D1A40394100180359 /* CoreGraphics.framework */,
+				82A35F6F1A40394100180359 /* UIKit.framework */,
+				82A35F8D1A40394100180359 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82A35F711A40394100180359 /* KifoyiCarte */ = {
+			isa = PBXGroup;
+			children = (
+				821BCC521A4093090085F39A /* images */,
+				82A35FA91A403A9E00180359 /* VilleTableCell.h */,
+				82A35FAA1A403A9E00180359 /* VilleTableCell.m */,
+				82A35FA31A403A0600180359 /* VilleTableController.h */,
+				82A35FA41A403A0600180359 /* VilleTableController.m */,
+				82A35FAC1A4045AD00180359 /* VilleViewController.h */,
+				82A35FAD1A4045AD00180359 /* VilleViewController.m */,
+				82A35F7A1A40394100180359 /* AppDelegate.h */,
+				82A35F7B1A40394100180359 /* AppDelegate.m */,
+				82A35F7D1A40394100180359 /* Main_iPhone.storyboard */,
+				82A35F801A40394100180359 /* Main_iPad.storyboard */,
+				82A35F831A40394100180359 /* ViewController.h */,
+				82A35F841A40394100180359 /* ViewController.m */,
+				82A35F861A40394100180359 /* Images.xcassets */,
+				82A35F721A40394100180359 /* Supporting Files */,
+			);
+			path = KifoyiCarte;
+			sourceTree = "<group>";
+		};
+		82A35F721A40394100180359 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82A35F731A40394100180359 /* KifoyiCarte-Info.plist */,
+				82A35F741A40394100180359 /* InfoPlist.strings */,
+				82A35F771A40394100180359 /* main.m */,
+				82A35F791A40394100180359 /* KifoyiCarte-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82A35F931A40394100180359 /* KifoyiCarteTests */ = {
+			isa = PBXGroup;
+			children = (
+				82A35F991A40394100180359 /* KifoyiCarteTests.m */,
+				82A35F941A40394100180359 /* Supporting Files */,
+			);
+			path = KifoyiCarteTests;
+			sourceTree = "<group>";
+		};
+		82A35F941A40394100180359 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82A35F951A40394100180359 /* KifoyiCarteTests-Info.plist */,
+				82A35F961A40394100180359 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82A35F671A40394100180359 /* KifoyiCarte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A35F9D1A40394100180359 /* Build configuration list for PBXNativeTarget "KifoyiCarte" */;
+			buildPhases = (
+				82A35F641A40394100180359 /* Sources */,
+				82A35F651A40394100180359 /* Frameworks */,
+				82A35F661A40394100180359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KifoyiCarte;
+			productName = KifoyiCarte;
+			productReference = 82A35F681A40394100180359 /* KifoyiCarte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82A35F8B1A40394100180359 /* KifoyiCarteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A35FA01A40394100180359 /* Build configuration list for PBXNativeTarget "KifoyiCarteTests" */;
+			buildPhases = (
+				82A35F881A40394100180359 /* Sources */,
+				82A35F891A40394100180359 /* Frameworks */,
+				82A35F8A1A40394100180359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82A35F921A40394100180359 /* PBXTargetDependency */,
+			);
+			name = KifoyiCarteTests;
+			productName = KifoyiCarteTests;
+			productReference = 82A35F8C1A40394100180359 /* KifoyiCarteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82A35F601A40394100180359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					82A35F8B1A40394100180359 = {
+						TestTargetID = 82A35F671A40394100180359;
+					};
+				};
+			};
+			buildConfigurationList = 82A35F631A40394100180359 /* Build configuration list for PBXProject "KifoyiCarte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82A35F5F1A40394100180359;
+			productRefGroup = 82A35F691A40394100180359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82A35F671A40394100180359 /* KifoyiCarte */,
+				82A35F8B1A40394100180359 /* KifoyiCarteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82A35F661A40394100180359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821BCC581A4093090085F39A /* Tokyo.png in Resources */,
+				82A35F821A40394100180359 /* Main_iPad.storyboard in Resources */,
+				821BCC5A1A4093090085F39A /* losangeles.jpg in Resources */,
+				821BCC571A4093090085F39A /* Paris.jpg in Resources */,
+				82A35F871A40394100180359 /* Images.xcassets in Resources */,
+				821BCC591A4093090085F39A /* rome.jpg in Resources */,
+				82A35F7F1A40394100180359 /* Main_iPhone.storyboard in Resources */,
+				821BCC5C1A4098E20085F39A /* singapore.jpg in Resources */,
+				82A35F761A40394100180359 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A35F8A1A40394100180359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A35F981A40394100180359 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82A35F641A40394100180359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A35FAB1A403A9E00180359 /* VilleTableCell.m in Sources */,
+				82A35FAE1A4045AD00180359 /* VilleViewController.m in Sources */,
+				82A35F851A40394100180359 /* ViewController.m in Sources */,
+				82A35FA51A403A0600180359 /* VilleTableController.m in Sources */,
+				82A35F7C1A40394100180359 /* AppDelegate.m in Sources */,
+				82A35F781A40394100180359 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A35F881A40394100180359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A35F9A1A40394100180359 /* KifoyiCarteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82A35F921A40394100180359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82A35F671A40394100180359 /* KifoyiCarte */;
+			targetProxy = 82A35F911A40394100180359 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82A35F741A40394100180359 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A35F751A40394100180359 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82A35F7D1A40394100180359 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A35F7E1A40394100180359 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		82A35F801A40394100180359 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A35F811A40394100180359 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		82A35F961A40394100180359 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A35F971A40394100180359 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82A35F9B1A40394100180359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82A35F9C1A40394100180359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82A35F9E1A40394100180359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KifoyiCarte/KifoyiCarte-Prefix.pch";
+				INFOPLIST_FILE = "KifoyiCarte/KifoyiCarte-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82A35F9F1A40394100180359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KifoyiCarte/KifoyiCarte-Prefix.pch";
+				INFOPLIST_FILE = "KifoyiCarte/KifoyiCarte-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82A35FA11A40394100180359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KifoyiCarte.app/KifoyiCarte";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KifoyiCarte/KifoyiCarte-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KifoyiCarteTests/KifoyiCarteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		82A35FA21A40394100180359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KifoyiCarte.app/KifoyiCarte";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KifoyiCarte/KifoyiCarte-Prefix.pch";
+				INFOPLIST_FILE = "KifoyiCarteTests/KifoyiCarteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82A35F631A40394100180359 /* Build configuration list for PBXProject "KifoyiCarte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A35F9B1A40394100180359 /* Debug */,
+				82A35F9C1A40394100180359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A35F9D1A40394100180359 /* Build configuration list for PBXNativeTarget "KifoyiCarte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A35F9E1A40394100180359 /* Debug */,
+				82A35F9F1A40394100180359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A35FA01A40394100180359 /* Build configuration list for PBXNativeTarget "KifoyiCarteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A35FA11A40394100180359 /* Debug */,
+				82A35FA21A40394100180359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82A35F601A40394100180359 /* Project object */;
+}
